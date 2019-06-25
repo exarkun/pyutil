@@ -49,8 +49,7 @@ data_files = [
 readmetext = io.open(u'README.rst', encoding='utf-8').read()
 
 setup(name=PKG,
-      version=versioneer.get_version(),
-      cmdclass=versioneer.get_cmdclass(),
+      version="3.2.0.post1",
       description=u'a collection of utilities for Python programmers',
       long_description=readmetext,
       author=u"tpltnt",
